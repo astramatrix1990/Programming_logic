@@ -1,8 +1,10 @@
-# Here I am printing a message on the screen.
 print("Hello World, I'm learning Programming Logic with Python")
 
-# Here I declare the variables that I will use in the course of the code.
-# Variable is a space that you reserve in the ram to store data and after somehow use that data in your program.
+def testing(nome):
+    return print("Olá " + nome + "!")
+
+hello = testing("Alan")
+
 numero = 10
 numero1 = 2
 
@@ -21,7 +23,6 @@ print("10 Vezes 2 É: " , resultado)
 # Divisão de Valores.
 resultado = (numero / numero1)
 print("10 Dividido por 2 É: ", resultado)
-
 
 # 5 == 5 : Sinal para verificar a igualdade, aqui daria True
 print("5 igual a 5 é: ", 5 == 5)
